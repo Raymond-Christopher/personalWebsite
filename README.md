@@ -81,9 +81,9 @@ If you're evaluating engineering candidates for roles requiring **ownership**, *
 ## 🔗 Get in Touch
 
 **Christopher Raymond**  
-📫 [Your email or LinkedIn here]  
-🌍 [Deployed site link if live]  
-📁 [Link to resume PDF if available]
+📫 📧 christopher.m.raymond2@gmail.com
+🌍 [Deployed site link]  
+📁 (https://www.linkedin.com/in/cmraymon/)
 
 ---
 
