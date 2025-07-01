@@ -1,6 +1,8 @@
 // src/pages/About.tsx
 import '../styles/About.css';
 import Navbar from '../components/Navbar';
+import Skills from '../components/skills';
+import Jobs from '../components/jobs';
 
 const About = () => {
   return (
@@ -36,142 +38,10 @@ const About = () => {
           </div>
 
           {/* Technical Skills */}
-          <div className="about-section">
-            <h2 className="section-title">Technical Skills</h2>
-            <ul className="skills-list">
-              <li className="skill-entry">
-                <span className="skill-category">ES Languages:</span>
-                <ul className="nested-skill-list">
-                  <li>JavaScript</li>
-                  <li>TypeScript</li>
-                  <li>Node.js</li>
-                </ul>
-              </li>
-              <li className="skill-entry">
-                <span className="skill-category">.NET / Compiled Languages:</span>
-                <ul className="nested-skill-list">
-                  <li>C#</li>
-                  <li>C++</li>
-                  <li>Java</li>
-                </ul>
-              </li>
-              <li className="skill-entry">
-                <span className="skill-category">Backend / Scripting:</span>
-                <ul className="nested-skill-list">
-                  <li>Golang</li>
-                  <li>Python</li>
-                  <li>SQL</li>
-                </ul>
-              </li>
-              <li className="skill-entry">
-                <span className="skill-category">Web & UI:</span>
-                <ul className="nested-skill-list">
-                  <li>React</li>
-                  <li>HTML5</li>
-                  <li>CSS3</li>
-                </ul>
-              </li>
-              <li className="skill-entry">
-                <span className="skill-category">Tooling & DevOps:</span>
-                <ul className="nested-skill-list">
-                  <li>Docker</li>
-                  <li>GitHub</li>
-                  <li>CI/CD Pipelines</li>
-                </ul>
-              </li>
-              <li className="skill-entry">
-                <span className="skill-category">Databases & Integration:</span>
-                <ul className="nested-skill-list">
-                  <li>PostgreSQL</li>
-                  <li>Workday Integrations</li>
-                </ul>
-              </li>
-              <li className="skill-entry">
-                <span className="skill-category">Special Interests:</span>
-                <ul className="nested-skill-list">
-                  <li>Packet inspection</li>
-                  <li>Low-level protocol analysis</li>
-                  <li>UX-minded frontend development</li>
-                </ul>
-              </li>
-            </ul>
-          </div>
+          <Skills />
           {/* Experience */}
           <div className="about-section">
-            <h2 className="section-title">Experience</h2>
-
-            <div className="experience-section">
-              <div className="job-entry">
-                <h3 className="job-title">Senior Software Engineer</h3>
-                <p className="job-meta">
-                  Phosphorus Cybersecurity — Nashville, TN | Sep 2023 – Present
-                </p>
-                <ul className="job-list">
-                  <li>
-                    Built full-stack internal tools (Golang, PostgreSQL, JS) to align sales and
-                    product initiatives.
-                  </li>
-                  <li>
-                    Reverse-engineered proprietary IoT encryption protocols to enable device
-                    automation at scale.
-                  </li>
-                  <li>
-                    Led device fingerprinting via network packet inspection, enhancing enterprise
-                    security posture.
-                  </li>
-                  <li>
-                    Mentored junior engineers and drove improvements in CI/CD workflows across
-                    teams.
-                  </li>
-                </ul>
-              </div>
-
-              <div className="job-entry">
-                <h3 className="job-title">Lead Technical Analyst</h3>
-                <p className="job-meta">
-                  Bridgestone Americas — Nashville, TN | Mar 2023 – Sep 2023
-                </p>
-                <ul className="job-list">
-                  <li>
-                    Engineered JavaScript-based Workday integrations to optimize reporting and data
-                    compliance.
-                  </li>
-                  <li>
-                    Partnered across HR, API, and payroll teams to streamline technical operations.
-                  </li>
-                  <li>
-                    Ensured regulatory compliance with union and state-specific employment systems.
-                  </li>
-                </ul>
-              </div>
-
-              <div className="job-entry">
-                <h3 className="job-title">Teaching Assistant – Java (OOP)</h3>
-                <p className="job-meta">
-                  Butler University — Indianapolis, IN | Jan 2020 – May 2020
-                </p>
-                <ul className="job-list">
-                  <li>
-                    Supported two classes of 20+ students by leading review sessions, grading code,
-                    and guiding project development.
-                  </li>
-                </ul>
-              </div>
-
-              <div className="job-entry">
-                <h3 className="job-title">Lead Intelligence Analyst</h3>
-                <p className="job-meta">
-                  U.S. Department of Defense — El Paso, TX | Mar 2013 – Jul 2016
-                </p>
-                <ul className="job-list">
-                  <li>
-                    Translated real-time battlefield data into actionable intelligence using
-                    classified networks and tools.
-                  </li>
-                  <li>Ensured compliance with all DoD and Army cybersecurity regulations.</li>
-                </ul>
-              </div>
-            </div>
+            <Jobs />
           </div>
 
           {/* Education */}

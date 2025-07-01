@@ -1,0 +1,21 @@
+category,skill,level
+ECMAScript Languages,JavaScript,7
+ECMAScript Languages,TypeScript,6
+ECMAScript Languages,Node.js,7
+ECMAScript Languages,Express.js,4
+.NET / Compiled Languages,C#,2
+.NET / Compiled Languages,C++,4
+.NET / Compiled Languages,Java,4
+Backend / Scripting,Golang,4
+Backend / Scripting,Python,7
+Web & UI,React,6
+Web & UI,HTML5,6
+Web & UI,CSS3,6
+Tooling & DevOps,Docker,7
+Tooling & DevOps,GitHub,7
+Tooling & DevOps,CI/CD Pipelines,4
+Databases & Integration,PostgreSQL,7
+Databases & Integration,Workday Integrations,7
+Special Interests,Packet inspection,7
+Special Interests,Low-level protocol analysis,6
+Special Interests,UX-minded frontend development,6
