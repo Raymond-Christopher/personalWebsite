@@ -4,12 +4,7 @@ import '../styles/About.css';
 import Navbar from '../components/Navbar';
 
 const About = () => {
-  // Before:
-const x = 1;
-
-// Change to:
-const     x    =   1
-
+  
   return (
     <>
       <Navbar />
