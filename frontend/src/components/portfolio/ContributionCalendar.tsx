@@ -1,6 +1,6 @@
 import React, { useState, useMemo, useEffect } from 'react';
-import type { GitHubContributionDay } from '../types/GitHubContributions';
-import '../styles/ContributionCalendar.css';
+import type { GitHubContributionDay } from '@/types/GithubContributions';
+import '@/styles/ContributionCalendar.css';
 import { motion } from 'framer-motion';
 
 const WEEKDAYS = ['Mon', 'Wed', 'Fri'];

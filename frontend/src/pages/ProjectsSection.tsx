@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
-import ProjectCard from '../components/ProjectCard';
-import { fetchProjects } from '../services/api';
-import type { Project } from '../models/Project';
+import ProjectCard from '@/components/common/ProjectCard';
+import { fetchProjects } from '@/services/api';
+import type { Project } from '@/models/Project';
 
 const ProjectsSection = () => {
   const [projects, setProjects] = useState<Project[]>([]);

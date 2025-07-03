@@ -1,0 +1,42 @@
+[
+  {
+    "id": "golang-blog",
+    "title": "Why I Love Golang",
+    "description": "A look into Go’s concurrency model, speed, and simplicity.",
+    "image": "/images/golang.png",
+    "x": 500,
+    "y": 300
+  },
+  {
+    "id": "iot-fingerprinting",
+    "title": "IoT Fingerprinting at Scale",
+    "description": "How we built a scalable platform to identify and manage connected devices.",
+    "image": "/images/iot.png",
+    "x": 1200,
+    "y": 800
+  },
+  {
+    "id": "hospital-nfc",
+    "title": "Building an NFC Ecosystem for Hospitals",
+    "description": "Prototyping RFID/NFC-based IoT workflows in clinical environments.",
+    "image": "/images/hospital.png",
+    "x": 300,
+    "y": 1000
+  },
+  {
+    "id": "coding-solid-best-practices",
+    "title": "An Exploration of Using SOLID Principles in Coding",
+    "description": "In this post, I walk you through the SOLID principles of object-oriented design — five essential guidelines that help you write cleaner, more maintainable code. Think of them as the building blocks of scalable software. I explain each principle in simple terms: why it matters, how to spot violations, and how to apply it in real code. For example, you'll see how the Single Responsibility Principle means keeping a class focused — like a 'UserReportGenerator' that only formats reports instead of also fetching user data. We look at the Open/Closed Principle by refactoring a switch-heavy function into strategy classes that are easier to extend. I show how the Liskov Substitution Principle ensures subclasses behave like their parents — and what goes wrong when they don’t. You'll understand Interface Segregation through a relatable API example where small, focused interfaces prevent unnecessary dependencies. And we break down Dependency Inversion by showing how to inject dependencies instead of hard-coding them, which makes unit testing much easier. Whether you're a beginner or brushing up, this post gives you practical tools — not just theory — to improve the structure and flexibility of your codebase.",
+    "image": "http://localhost:3001/images/solid-principles.jpg",
+    "x": 25,
+    "y": 100
+  },
+  {
+    "id": "parallel-javascript-explained",
+    "title": "How to Make JavaScript Run in Parallel",
+    "description": "In this post, I’ll teach you how to take single-threaded JavaScript — the kind most of us start with — and run parts of it in parallel to improve performance. JavaScript runs on a single thread, which means it processes one task at a time. But that doesn’t mean it’s limited to doing one thing forever. I’ll show you how to split your code so that long-running or CPU-intensive tasks can run outside the main thread — without freezing the UI or blocking your API. We’ll start with a real-world example: imagine processing a huge array of image files or computing Fibonacci numbers. Normally, that would lock the browser or server. But using Web Workers (in the browser) or `worker_threads` (in Node.js), we can offload those tasks to background threads. You’ll also learn when it’s better to use `Promise.all` for running tasks concurrently (like fetching multiple APIs) and why that’s not truly “parallel” but still super useful. I explain these tools using step-by-step code examples, compare performance, and walk through common gotchas — like sharing data between threads and handling race conditions. By the end, you’ll have a toolkit to make your JavaScript apps faster, smoother, and more responsive — even for heavy workloads.",
+    "image": "http://localhost:3001/images/js-parallelism.jpg",
+    "x": 1500,
+    "y": 100
+  }
+]

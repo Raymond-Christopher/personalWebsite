@@ -1,10 +1,10 @@
 // src/pages/About.tsx
-import '../styles/About.css';
-import Navbar from '../components/Navbar';
-import Skills from '../components/Skills';
-import Jobs from '../components/Jobs';
-import Education from '../components/education';
-import Leadership from '../components/Leadership';
+import '@/styles/About.css';
+import Navbar from '@/components/common/Navbar';
+import Skills from '@/components/resume/Skills';
+import Jobs from '@/components/resume/Jobs';
+import Education from '@/components/resume/Education';
+import Leadership from '@/components/resume/Leadership';
 
 const About = () => {
   return (

@@ -1,26 +1,33 @@
+version: '3.8'
+
 services:
   frontend:
+    container_name: frontend
     build:
       context: ./frontend
-    ports:
-      - '3000:80'
     environment:
       - NODE_ENV=production
     networks:
       - app-net
 
   backend:
+    container_name: backend
     build:
       context: ./backend/project
     ports:
-      - '3001:3001'
+      - '3001:3001' # Optional; remove if only accessed through nginx
     environment:
       - NODE_ENV=production
     command: npm start
+
+    volumes:
+      - ./backend/project/assets/images:/app/assets/images
+
     networks:
       - app-net
 
-  nginx:
+  reverse-proxy:
+    container_name: reverse-proxy
     image: nginx:latest
     ports:
       - '80:80'

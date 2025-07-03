@@ -1,6 +1,6 @@
 // src/components/Jobs.tsx
 import { useEffect, useState } from 'react';
-import type { Job } from '../types/Job';
+import type { Job } from '@/types/Job';
 
 const Jobs = () => {
   const [jobs, setJobs] = useState<Job[]>([]);

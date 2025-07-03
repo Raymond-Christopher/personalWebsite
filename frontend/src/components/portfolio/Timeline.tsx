@@ -1,7 +1,7 @@
 import ReactMarkdown from 'react-markdown';
 import { motion } from 'framer-motion';
-import '../styles/Timeline.css';
-import useTimelineData from '../hooks/useTimelineData';
+import '@/styles/Timeline.css';
+import useTimelineData from '@/hooks/useTimelineData';
 
 const Timeline = () => {
   const { data: timelineData, loading, error } = useTimelineData();

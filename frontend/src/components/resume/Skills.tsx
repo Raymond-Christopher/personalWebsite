@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import PowerBar from '../components/powerBar';
+import PowerBar from '@/components/common/PowerBar';
 
 type Skill = {
   name: string;

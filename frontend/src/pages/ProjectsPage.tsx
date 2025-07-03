@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
-import ProjectCard from '../components/ProjectCard';
-import { fetchProjects } from '../services/api';
+import ProjectCard from '@/components/common/ProjectCard';
+import { fetchProjects } from '@/services/api';
 
 type Project = {
   id: string;

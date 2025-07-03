@@ -1,8 +1,7 @@
 /* Main layout */
 .home-wrapper {
-  @apply mx-auto flex max-w-6xl flex-col gap-20;
+  @apply mx-auto flex min-h-screen flex-col gap-20 text-white;
 }
-
 /* Navbar */
 .navbar {
   @apply fixed top-0 z-50 flex w-full items-center justify-between bg-black px-10 py-6 text-white shadow-md;
