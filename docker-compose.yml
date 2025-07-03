@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   frontend:
     build:
@@ -8,6 +6,8 @@ services:
       - '3000:80'
     environment:
       - NODE_ENV=production
+    networks:
+      - app-net
 
   backend:
     build:
@@ -17,6 +17,8 @@ services:
     environment:
       - NODE_ENV=production
     command: npm start
+    networks:
+      - app-net
 
   nginx:
     image: nginx:latest
@@ -27,3 +29,8 @@ services:
     depends_on:
       - frontend
       - backend
+    networks:
+      - app-net
+
+networks:
+  app-net:

@@ -1,8 +1,10 @@
 // src/pages/About.tsx
 import '../styles/About.css';
 import Navbar from '../components/Navbar';
-import Skills from '../components/skills';
-import Jobs from '../components/jobs';
+import Skills from '../components/Skills';
+import Jobs from '../components/Jobs';
+import Education from '../components/education';
+import Leadership from '../components/Leadership';
 
 const About = () => {
   return (
@@ -46,38 +48,16 @@ const About = () => {
 
           {/* Education */}
           <div className="about-section">
-            <h2 className="section-title">Education</h2>
-            <div className="education-list">
-              <div className="education-entry">
-                <h3 className="degree">Master of Science – Computer Science</h3>
-                <p className="school">Vanderbilt University </p>
-              </div>
-
-              <div className="education-entry">
-                <h3 className="degree">Bachelor of Science – Computer Science</h3>
-                <p className="school">Butler University </p>
-              </div>
-
-              <div className="education-entry">
-                <h3 className="degree">Bachelor of Science – Biomedical Engineering</h3>
-                <p className="school">Purdue University </p>
-              </div>
-
-              <div className="education-entry">
-                <h3 className="degree">Honors & Awards</h3>
-                <p className="school">Butler Grant Academic Scholarship, Outstanding Tutor Award</p>
-              </div>
+            <Education />
+            <div className="education-entry mt-4">
+              <h3 className="degree">Honors & Awards</h3>
+              <p className="school">Butler Grant Academic Scholarship, Outstanding Tutor Award</p>
             </div>
           </div>
 
           {/* Leadership */}
           <div className="about-section">
-            <h2 className="section-title">Leadership & Community</h2>
-            <ul className="list-disc pl-6">
-              <li className="community-entry">CSSE Tutor, Butler University</li>
-              <li className="community-entry">Secretary, ACM Student Chapter</li>
-              <li className="community-entry">Mentor, Junior Engineering Cohorts</li>
-            </ul>
+            <Leadership />
           </div>
 
           {/* Passions */}

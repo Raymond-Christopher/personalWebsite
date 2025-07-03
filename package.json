@@ -24,6 +24,9 @@
     "backend/project/src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": "prettier --plugin=prettier-plugin-tailwindcss --write"
   },
   "dependencies": {
-    "csv-parser": "^3.2.0"
+    "csv-parser": "^3.2.0",
+    "framer-motion": "^12.23.0",
+    "github-contributions-react": "^1.0.15",
+    "react-markdown": "^10.1.0"
   }
 }

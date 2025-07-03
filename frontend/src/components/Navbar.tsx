@@ -1,29 +1,29 @@
 import { Link } from 'react-router-dom';
-import '../styles/Home.css'; // or create a Navbar-specific CSS file if preferred
+import '../styles/Home.css';
 
 const Navbar = () => {
   return (
     <header className="navbar">
       <div className="navbar-logo"></div>
 
-      <nav className="navbar-links">
+      <nav className="navbar-links" role="navigation" aria-label="Main navigation">
         <Link to="/" className="navbar-link">
-          home
+          Home
         </Link>
         <Link to="/about" className="navbar-link">
-          about
+          About
         </Link>
         <a href="#featured" className="navbar-link">
-          featured
+          Featured
         </a>
-        <a href="#portfolio" className="navbar-link">
-          portfolio
-        </a>
+        <Link to="/portfolio" className="navbar-link">
+          Portfolio
+        </Link>
         <a href="#blog" className="navbar-link">
-          blog
+          Blog
         </a>
         <a href="#contact" className="navbar-link">
-          contact
+          Contact
         </a>
       </nav>
 
