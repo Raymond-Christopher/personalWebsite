@@ -15,7 +15,6 @@ function App() {
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/featured" element={<FeaturedPage />} />
         <Route path="/blog" element={<BlogPage />} />
-
         <Route path="*" element={<div className="p-6 text-red-400">Page not found</div>} />
       </Routes>
     </main>
